@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HomeWorkLoops", "HomeWorkLo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pascale", "Pascale\Pascale.vcxproj", "{B027C3F7-CAC4-41EF-9012-BDD5105CC0C3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OldHomeWork", "OldHomeWork\OldHomeWork.vcxproj", "{EE22414F-027C-40D6-AA5B-E891ABE63CEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{B027C3F7-CAC4-41EF-9012-BDD5105CC0C3}.Release|x64.Build.0 = Release|x64
 		{B027C3F7-CAC4-41EF-9012-BDD5105CC0C3}.Release|x86.ActiveCfg = Release|Win32
 		{B027C3F7-CAC4-41EF-9012-BDD5105CC0C3}.Release|x86.Build.0 = Release|Win32
+		{EE22414F-027C-40D6-AA5B-E891ABE63CEF}.Debug|x64.ActiveCfg = Debug|x64
+		{EE22414F-027C-40D6-AA5B-E891ABE63CEF}.Debug|x64.Build.0 = Debug|x64
+		{EE22414F-027C-40D6-AA5B-E891ABE63CEF}.Debug|x86.ActiveCfg = Debug|Win32
+		{EE22414F-027C-40D6-AA5B-E891ABE63CEF}.Debug|x86.Build.0 = Debug|Win32
+		{EE22414F-027C-40D6-AA5B-E891ABE63CEF}.Release|x64.ActiveCfg = Release|x64
+		{EE22414F-027C-40D6-AA5B-E891ABE63CEF}.Release|x64.Build.0 = Release|x64
+		{EE22414F-027C-40D6-AA5B-E891ABE63CEF}.Release|x86.ActiveCfg = Release|Win32
+		{EE22414F-027C-40D6-AA5B-E891ABE63CEF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
