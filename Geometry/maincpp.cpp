@@ -1,20 +1,22 @@
-#include <iostream>
+﻿#include <iostream>
 #include <conio.h>
 using namespace std;
 
-//#define FIGURE_0
-//#define FIGURE_1
-//#define FIGURE_2
+#define FIGURE_0
+#define FIGURE_1
+#define FIGURE_2
 #define FIGURE_3
+#define FIGURE_4
+#define FIGURE_5
 
 void main()
 {
 	setlocale(LC_ALL, " ");
 #ifdef FIGURE_0
-	int n = 5;
-	for (int i = 0; i < n; i++)
+	int a = 5;
+	for (int i = 0; i < a; i++)
 	{
-		for (int j = 0; j < n; j++)
+		for (int j = 0; j < a; j++)
 		{
 			cout << "*";
 		}
@@ -39,10 +41,12 @@ void main()
 	}
 #endif
 
+cout << endl;
+
 #ifdef FIGURE_2
 
-	int star = 6;
-		for (int i = 1; i < star; i++)
+	int star_2 = 6;
+		for (int i = 1; i < star_2; i++)
 		{
 			for (int j = 6; j > i; j--)
 			{
@@ -50,22 +54,55 @@ void main()
 			}
 			cout << endl;
 		}
-	
+
 
 #endif
 	
+cout << endl;
 
 #ifdef FIGURE_3
-		int n = 6;
-		for (int i = 1; i < n; i++)
+		int b = 5;
+		for (int i = 0; i <= b; i++) //���������
 		{
-			for (int k = 0; k > n; k++)
+			for (int k = 0; k < i; k++) //�������
 			{
-				cout << "-";
+				cout << " ";
 			}
-			for (int j = 6; j > i; j--)
+			for (int j = 5; j > i; j--) //�����������
 			{
 				cout << "*";
+			}
+			cout << endl;
+		}
+#endif
+
+#ifdef FIGURE_4
+
+		int c = 5;
+		for (int i = 0; i <= c; i++)
+		{
+			for (int j = 5; j > i; j--)
+			{
+				cout << " ";
+			}
+			for (int k = 0; k < i; k++)
+			{
+				cout << "*";
+			}
+			cout << endl;
+		}
+
+#endif
+
+cout << endl;
+
+#ifdef FIGURE_5
+		int e = 10;
+		for (int i = 0; i < e; i++)
+		{
+			for (int j = 0; j < e; j++)
+			{
+				cout << (i % 2 == j % 2 ? "+" : "-");
 			}
 			cout << endl;
 		}
